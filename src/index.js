@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import CommentApp from './component/CommentApp';
+import Header from './Header';
+import './index.css';
+import List from './List';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
+ReactDOM.render( 
+    <React.StrictMode >
+    <Header />
+    <CommentApp />
+    <List />
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

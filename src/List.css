@@ -1,0 +1,12 @@
+.list {
+    background-color: #06296e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-origin: padding-box;
+    border: 1px solid #dd8614;
+    padding: 20px;
+}
